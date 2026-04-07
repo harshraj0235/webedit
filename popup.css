@@ -1,0 +1,245 @@
+:root {
+    --bg-color: #0d0d14;
+    --card-bg: #1a1a24;
+    --primary: #6c5ce7;
+    --primary-hover: #5f27cd;
+    --secondary: #00b894;
+    --text: #f0f0f5;
+    --text-muted: #a0a0b5;
+    --danger: #ff7675;
+}
+
+body {
+    width: 320px;
+    margin: 0;
+    padding: 15px;
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg-color);
+    color: var(--text);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.version-badge {
+    display: inline-block;
+    background: rgba(108, 92, 231, 0.2);
+    color: #a29bfe;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+/* Action Buttons (The grid) */
+.action-btn {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: var(--card-bg);
+    color: var(--text);
+    border: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.action-btn:hover:not(:disabled) {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-1px);
+}
+
+.action-btn.primary {
+    background: var(--primary);
+    color: white;
+}
+.action-btn.primary:hover:not(:disabled) {
+    background: var(--primary-hover);
+}
+
+.action-btn.highlight {
+    background: rgba(0, 184, 148, 0.1);
+    color: var(--secondary);
+    border: 1px solid rgba(0, 184, 148, 0.2);
+}
+.action-btn.highlight:hover:not(:disabled) {
+    background: rgba(0, 184, 148, 0.2);
+}
+
+.action-btn.active {
+    background: var(--secondary);
+    color: white;
+    border-color: var(--secondary);
+}
+
+.action-btn:disabled.locked {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    border: 1px solid rgba(255,118,117,0.3);
+}
+
+.action-btn:disabled.locked::after {
+    content: "🔒";
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.pro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.pro-grid .action-btn {
+    margin-bottom: 0;
+    font-size: 11px;
+    padding: 10px 5px;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+    color: var(--text-muted);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.divider span {
+    padding: 0 10px;
+}
+
+/* Paywall View */
+#proView {
+    margin-top: 15px;
+    padding: 15px;
+    background: linear-gradient(135deg, rgba(108, 92, 231, 0.1), rgba(253, 121, 168, 0.1));
+    border: 1px solid rgba(108, 92, 231, 0.3);
+    border-radius: 12px;
+}
+
+.pro-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.pro-features {
+    margin: 12px 0;
+}
+.pro-features ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #e2e2ea;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.btn-buy {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(135deg, #00b894, #00cec9);
+    color: white !important;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: transform 0.2s;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 184, 148, 0.3);
+}
+.btn-buy:hover {
+    transform: scale(1.02);
+}
+
+.license-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.license-box input {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    font-family: monospace;
+}
+.license-box input:focus {
+    border-color: var(--primary);
+}
+
+.btn.highlight {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn.highlight:hover {
+    background: var(--primary-hover);
+}
+
+.license-message {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}

@@ -1,0 +1,11 @@
+*.zip
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
+logo300x300.png
+promo440x280.png
+promo1400x560.png
+screenshot1280x800.png
+screen*.png
+github_clean/

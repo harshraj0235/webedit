@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body oncontextmenu="return false;" onkeydown="if(event.keyCode==123) return false;" style="user-select: none;">
+    <div class="header">
+        <h1 class="logo">W</h1>
+        <div>
+            <h2 class="title">WebEdit Wizard</h2>
+            <div class="version-badge">v1.2 PRO</div>
+        </div>
+    </div>
+
+    <!-- MAIN VIEW (Always Visible, but Pro buttons lock dynamically) -->
+    <div id="mainView">
+        <button class="action-btn primary" id="editBtn">✨ Enable Edit Mode</button>
+        <button class="action-btn" id="darkBtn">🌙 Toggle Dark Mode</button>
+        <div class="pro-grid">
+            <button class="action-btn highlight" id="pdfBtn">📄 Full Page PDF</button>
+            <button class="action-btn highlight" id="exportSelBtn">🖨️ Selection PDF</button>
+        </div>
+        
+        <div class="divider"><span>PRO VETERAN TOOLS</span></div>
+        <div class="pro-grid">
+            <button class="action-btn pro-action" id="eraserBtn">🧹 Magic Eraser</button>
+            <button class="action-btn pro-action" id="cloneBtn">👯 Clone Element</button>
+            <button class="action-btn pro-action" id="xrayBtn">🔍 HTML X-Ray</button>
+            <button class="action-btn pro-action" id="cleanPrintBtn">📄 Clean Print</button>
+            <button class="action-btn pro-action" id="saveBtn">💾 Save Edits</button>
+            <button class="action-btn pro-action" id="restoreBtn">🔄 Restore</button>
+        </div>
+    </div>
+
+    <!-- PAYWALL / LICENSE VIEW FOR FREE USERS -->
+    <div id="proView" class="hidden">
+        <div class="pro-header">
+            <h3>WebEdit Wizard <span style="background:linear-gradient(135deg,#ff9a9e,#fecfef);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">PRO</span></h3>
+            <p style="color: #a0a0b5; font-size: 12px; margin-top: 5px;">Unlock the ultimate editing superpowers.</p>
+        </div>
+        
+        <div class="pro-features">
+            <ul>
+                <li>✨ Unlimited Magic Eraser & Cloner</li>
+                <li>✨ Live HTML X-Ray Code Editor</li>
+                <li>✨ Save Edits to Browser Storage</li>
+                <li>✨ Unlimited PDF Exports & Typography</li>
+            </ul>
+        </div>
+        
+        <!-- TODO: Replace with your payment link -->
+        <a href="#" target="_blank" class="btn primary btn-buy" id="buyLicenseBtn">Buy PRO License</a>
+        
+        <div class="divider"><span>OR ENTER KEY</span></div>
+        
+        <div class="license-box">
+            <input type="text" id="licenseKey" placeholder="Enter License Key...">
+            <button class="btn highlight" id="activateBtn">Activate</button>
+            <p id="licenseMessage" class="license-message"></p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
