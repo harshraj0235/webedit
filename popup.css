@@ -11,8 +11,10 @@
 
 body {
     width: 320px;
+    max-height: 580px;
+    overflow-y: auto;
     margin: 0;
-    padding: 15px;
+    padding: 12px;
     font-family: 'Inter', system-ui, sans-serif;
     background: var(--bg-color);
     color: var(--text);
@@ -130,10 +132,10 @@ body {
 
 .pro-grid .action-btn {
     margin-bottom: 0;
-    font-size: 11px;
-    padding: 10px 5px;
+    font-size: 10px;
+    padding: 7px 4px;
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
     text-align: center;
 }
 
@@ -141,9 +143,9 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 15px 0;
+    margin: 8px 0;
     color: var(--text-muted);
-    font-size: 11px;
+    font-size: 9px;
     font-weight: 600;
     letter-spacing: 1px;
 }
