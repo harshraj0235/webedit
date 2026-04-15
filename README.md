@@ -8,7 +8,15 @@
 
 ## 🚀 What is WebEdit Wizard?
 
-WebEdit Wizard is a powerful Chrome & Edge extension that lets you **edit any website in real-time** — just like Microsoft Word for the internet. Change text, swap images, delete annoying ads, and export clean PDFs. Perfect for marketers, developers, students, and content creators.
+WebEdit & PDF Wizard is a powerful and intuitive browser extension designed to give users full control over web page content by enabling live editing of text and images directly within any website and allowing easy export of customized views as high-quality PDFs. This versatile tool is ideal for a wide range of users—from developers and marketers to students and professionals—who need to personalize, annotate, or refactor web content quickly and efficiently without complicated developer tools or coding knowledge.
+
+With WebEdit & PDF Wizard, you can seamlessly click anywhere on a webpage to edit text in place, fix typos, rewrite paragraphs, or tailor content to your needs. The image swapper lets you double-click any picture to replace it with your own, either via URL or by uploading from your computer, enabling instant customization of visuals within the page layout. The extension also simplifies the export process by providing dual PDF exporting options, allowing you to save the entire page or just selected parts as clean, print-ready PDFs—perfect for reports, presentations, or offline reference.
+
+Its floating, in-page toolbar keeps all essential functions at your fingertips without cluttering your browsing experience. This minimalist interface lets you toggle editing mode, export PDFs, undo or revert changes, and even switch to an instant dark mode to reduce eye strain on bright websites. Built with user-friendliness in mind, WebEdit & PDF Wizard provides reliable, fast editing and exporting tools that anyone can master.
+
+Upgrading to the Pro version unlocks powerful features like a Magic Eraser Tool to remove annoying pop-ups, sticky banners or chat boxes with a click; Save & Restore functionality that preserves your custom edits even after page reloads; and an HTML X-Ray Editor to visually modify raw HTML code live. The Clone Tool helps duplicate elements like pricing tables or buttons instantly, while Clean-Print mode strips down heavy backgrounds and media to generate ink-saving text documents. Typography Master enables you to enhance website fonts with premium styles for professional-looking displays.
+
+By combining ease of use with advanced editing capabilities, WebEdit & PDF Wizard stands apart from traditional developer consoles and inspect element tools. It acts like a Microsoft Word for the web, giving you unparalleled flexibility to manipulate DOM elements, customize CSS, edit text live, mock up designs, generate authentic-looking screenshots, and produce polished PDFs—all locally and privately on your machine. Your edits never affect websites on the internet and remain personal for productivity, mockups, and personalized printing.
 
 ---
 
