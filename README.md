@@ -18,6 +18,32 @@ Upgrading to the Pro version unlocks powerful features like a Magic Eraser Tool 
 
 By combining ease of use with advanced editing capabilities, WebEdit & PDF Wizard stands apart from traditional developer consoles and inspect element tools. It acts like a Microsoft Word for the web, giving you unparalleled flexibility to manipulate DOM elements, customize CSS, edit text live, mock up designs, generate authentic-looking screenshots, and produce polished PDFs—all locally and privately on your machine. Your edits never affect websites on the internet and remain personal for productivity, mockups, and personalized printing.
 
+## ✨ Key Features
+
+- **Live Text Editing**: Click anywhere to instantly modify visible text, perfect for fixing typos, rewriting sections, or annotating content.  
+- **Image Replacement**: Double-click images to swap them out using URLs or local uploads, enabling full visual customization.  
+- **Dual PDF Exporting**: Save entire webpages or only selected content as clean, high-quality PDFs for easy sharing and offline use.  
+- **Floating Toolbar**: Access all editing controls and export features via a minimalist toolbar that stays out of the way but always available.  
+- **Undo & Revert**: Safely undo changes or revert to the original page state to minimize risk during editing.  
+- **Instant Dark Mode**: Quickly toggle a dark theme to reduce eye strain on bright or white-heavy websites.  
+- **Pro Upgrade Features**: Magic Eraser to remove popup ads and banners, Save & Restore edits across reloads, HTML X-Ray editor for source-level modifications, Clone Tool for duplicating webpage elements, Clean-Print for ink-saving exports, and advanced typography options.
+
+## 🛠️ How It Works
+
+1. Install WebEdit & PDF Wizard from your browser’s extension store.  
+2. Click the extension icon to open the popup interface with editing controls.  
+3. Enable editing mode to make all visible text elements editable and images replaceable on the current webpage.  
+4. Modify text directly by clicking and typing; double-click any image to swap it with your own.  
+5. Use the floating toolbar or popup button to export your edits as a PDF of the entire page or only selected sections.  
+6. Undo or revert edits anytime to restore original content without refreshing the page.  
+7. Unlock Pro features to remove unwanted elements, save edits permanently, edit raw HTML, clone page sections, and optimize print versions.
+
+## 🔒 Privacy
+
+- No personal data collected.
+- All edits and conversions happen locally on your machine.
+
+
 ---
 
 ## ✨ Features
